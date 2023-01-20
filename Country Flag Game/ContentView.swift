@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
- //   @StateObject var quizManager = QuizManager()
+    @StateObject var quizManager = QuizManager()
     var body: some View {
         NavigationView {
             VStack(spacing: 40) {
@@ -18,10 +18,10 @@ struct ContentView: View {
                         .fontWeight(.bold)
                 }
                 NavigationLink {
-             //       QuizView()
-             //           .environmentObject(quizManager)
+                    QuizView()
+                        .environmentObject(quizManager)
                 } label: {
-              //      PrimaryButton(text: "Start")
+                    PrimaryButton(text: "Start")
                 }
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
