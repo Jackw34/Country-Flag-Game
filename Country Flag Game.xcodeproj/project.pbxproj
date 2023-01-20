@@ -17,6 +17,7 @@
 		2FAE51FF297AFEB1004B59B5 /* QuizManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAE51FE297AFEB1004B59B5 /* QuizManager.swift */; };
 		2FAE5201297AFEF9004B59B5 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAE5200297AFEF9004B59B5 /* PrimaryButton.swift */; };
 		2FAE5205297AFF50004B59B5 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAE5204297AFF50004B59B5 /* ProgressBar.swift */; };
+		2FAE5207297AFF7B004B59B5 /* AnswerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAE5206297AFF7B004B59B5 /* AnswerRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		2FAE51FE297AFEB1004B59B5 /* QuizManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizManager.swift; sourceTree = "<group>"; };
 		2FAE5200297AFEF9004B59B5 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
 		2FAE5204297AFF50004B59B5 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		2FAE5206297AFF7B004B59B5 /* AnswerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				2FAE51FE297AFEB1004B59B5 /* QuizManager.swift */,
 				2FAE5200297AFEF9004B59B5 /* PrimaryButton.swift */,
 				2FAE5204297AFF50004B59B5 /* ProgressBar.swift */,
+				2FAE5206297AFF7B004B59B5 /* AnswerRow.swift */,
 				2F33BEA62979A12C00592DFC /* Assets.xcassets */,
 				2F33BEA82979A12C00592DFC /* Preview Content */,
 			);
@@ -156,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FAE51FD297AFE68004B59B5 /* QuestionView.swift in Sources */,
+				2FAE5207297AFF7B004B59B5 /* AnswerRow.swift in Sources */,
 				2F33BEA52979A12B00592DFC /* ContentView.swift in Sources */,
 				2FAE51FB297AFE21004B59B5 /* Questions.swift in Sources */,
 				2F33BEA32979A12B00592DFC /* Country_Flag_GameApp.swift in Sources */,
