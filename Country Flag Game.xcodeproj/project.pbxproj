@@ -12,6 +12,7 @@
 		2F33BEA72979A12C00592DFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F33BEA62979A12C00592DFC /* Assets.xcassets */; };
 		2F33BEAA2979A12C00592DFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F33BEA92979A12C00592DFC /* Preview Assets.xcassets */; };
 		2FAE51F9297AFDAE004B59B5 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAE51F8297AFDAE004B59B5 /* QuizView.swift */; };
+		2FAE51FB297AFE21004B59B5 /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAE51FA297AFE21004B59B5 /* Questions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		2F33BEA62979A12C00592DFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F33BEA92979A12C00592DFC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2FAE51F8297AFDAE004B59B5 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		2FAE51FA297AFE21004B59B5 /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				2F33BEA22979A12B00592DFC /* Country_Flag_GameApp.swift */,
 				2F33BEA42979A12B00592DFC /* ContentView.swift */,
 				2FAE51F8297AFDAE004B59B5 /* QuizView.swift */,
+				2FAE51FA297AFE21004B59B5 /* Questions.swift */,
 				2F33BEA62979A12C00592DFC /* Assets.xcassets */,
 				2F33BEA82979A12C00592DFC /* Preview Content */,
 			);
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F33BEA52979A12B00592DFC /* ContentView.swift in Sources */,
+				2FAE51FB297AFE21004B59B5 /* Questions.swift in Sources */,
 				2F33BEA32979A12B00592DFC /* Country_Flag_GameApp.swift in Sources */,
 				2FAE51F9297AFDAE004B59B5 /* QuizView.swift in Sources */,
 			);
