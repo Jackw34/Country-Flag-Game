@@ -15,6 +15,7 @@
 		2FAE51FB297AFE21004B59B5 /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAE51FA297AFE21004B59B5 /* Questions.swift */; };
 		2FAE51FD297AFE68004B59B5 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAE51FC297AFE68004B59B5 /* QuestionView.swift */; };
 		2FAE51FF297AFEB1004B59B5 /* QuizManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAE51FE297AFEB1004B59B5 /* QuizManager.swift */; };
+		2FAE5201297AFEF9004B59B5 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAE5200297AFEF9004B59B5 /* PrimaryButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		2FAE51FA297AFE21004B59B5 /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
 		2FAE51FC297AFE68004B59B5 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 		2FAE51FE297AFEB1004B59B5 /* QuizManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizManager.swift; sourceTree = "<group>"; };
+		2FAE5200297AFEF9004B59B5 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				2FAE51FA297AFE21004B59B5 /* Questions.swift */,
 				2FAE51FC297AFE68004B59B5 /* QuestionView.swift */,
 				2FAE51FE297AFEB1004B59B5 /* QuizManager.swift */,
+				2FAE5200297AFEF9004B59B5 /* PrimaryButton.swift */,
 				2F33BEA62979A12C00592DFC /* Assets.xcassets */,
 				2F33BEA82979A12C00592DFC /* Preview Content */,
 			);
@@ -153,6 +156,7 @@
 				2F33BEA52979A12B00592DFC /* ContentView.swift in Sources */,
 				2FAE51FB297AFE21004B59B5 /* Questions.swift in Sources */,
 				2F33BEA32979A12B00592DFC /* Country_Flag_GameApp.swift in Sources */,
+				2FAE5201297AFEF9004B59B5 /* PrimaryButton.swift in Sources */,
 				2FAE51FF297AFEB1004B59B5 /* QuizManager.swift in Sources */,
 				2FAE51F9297AFDAE004B59B5 /* QuizView.swift in Sources */,
 			);
