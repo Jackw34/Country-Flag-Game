@@ -87,10 +87,32 @@ struct Questions {
                 Question(correctAnswer: Answer(text: "United States of America", isCorrect: true),
                          incorrectAnswers: [Answer(text: "Canada", isCorrect: false),
                                             Answer(text: "United Kingdom", isCorrect: false),
+                                            Answer(text: "Australia", isCorrect: false)]),
+                Question(correctAnswer: Answer(text: "Saudi Arabia", isCorrect: true),
+                         incorrectAnswers: [Answer(text: "Japan", isCorrect: false),
+                                            Answer(text: "Romania", isCorrect: false),
+                                            Answer(text: "Sweden", isCorrect: false)]),
+                Question(correctAnswer: Answer(text: "India", isCorrect: true),
+                         incorrectAnswers: [Answer(text: "Canada", isCorrect: false),
+                                            Answer(text: "spain", isCorrect: false),
+                                            Answer(text: "Iran", isCorrect: false)]),
+                Question(correctAnswer: Answer(text: "greece", isCorrect: true),
+                         incorrectAnswers: [Answer(text: "Mexcio", isCorrect: false),
+                                            Answer(text: "Vietnam", isCorrect: false),
+                                            Answer(text: "Iceland", isCorrect: false)]),
+                Question(correctAnswer: Answer(text: "Taiwand", isCorrect: true),
+                         incorrectAnswers: [Answer(text: "Japan", isCorrect: false),
+                                            Answer(text: "Venezuela", isCorrect: false),
+                                            Answer(text: "France", isCorrect: false)]),
+                Question(correctAnswer: Answer(text: "Switzerland", isCorrect: true),
+                         incorrectAnswers: [Answer(text: "Germany", isCorrect: false),
+                                            Answer(text: "Italy", isCorrect: false),
                                             Answer(text: "Australia", isCorrect: false)])]
     
+    
+    
 }
-
+// add five more questions
 struct Question: Identifiable {
     var id = UUID()
     var correctAnswer: Answer
